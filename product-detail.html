@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="产品详情 - 峰达石油设备">
+<title>产品详情 | 峰达石油设备 Fonda Oil</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="nav scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-icon">F</span>
+      <span>Fonda Oil<span style="font-weight:400;color:var(--text-muted);font-size:14px;margin-left:4px;">峰达石油</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" data-i18n="nav.home">首页</a>
+      <a href="products.html" class="active" data-i18n="nav.products">产品中心</a>
+      <a href="cases.html" data-i18n="nav.cases">案例展示</a>
+      <a href="about.html" data-i18n="nav.about">关于我们</a>
+      <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+    </div>
+    <div class="nav-actions">
+      <div class="lang-switcher">
+        <button class="lang-btn" aria-label="Switch language">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </button>
+        <div class="lang-dropdown">
+          <button class="lang-option active" data-lang="zh" data-i18n="lang.zh">中</button>
+          <button class="lang-option" data-lang="en" data-i18n="lang.en">EN</button>
+          <button class="lang-option" data-lang="ru" data-i18n="lang.ru">RU</button>
+        </div>
+      </div>
+      <a href="contact.html" class="nav-cta" data-i18n="nav.cta">获取报价</a>
+      <button class="nav-toggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- PAGE BANNER -->
+<section class="page-banner">
+  <div class="page-banner-content">
+    <div class="breadcrumb"><a href="index.html" data-i18n="proddetail.breadcrumb-home">首页</a> <span>›</span> <a href="products.html" data-i18n="proddetail.breadcrumb-products">产品中心</a> <span>›</span> <span data-i18n="proddetail.breadcrumb">产品详情</span></div>
+    <h1 id="prodName">油管丝堵</h1>
+    <p id="prodCategory">封堵与试压类 · 井口工具及装置</p>
+  </div>
+</section>
+
+<!-- PRODUCT DETAIL -->
+<section class="product-detail">
+  <div class="container">
+
+    <!-- Gallery + Info -->
+    <div class="product-gallery">
+      <div class="product-main-img" id="prodImg"><img src="images/products/oilfield-threaded-hex-plug-2048.png" alt="产品图片" loading="lazy"></div>
+      <div class="product-info">
+        <span class="card-tag" id="prodTag">封堵与试压类</span>
+        <h2 id="prodTitle">油管丝堵</h2>
+        <div class="product-model" id="prodModel">型号：FT-SD-01 系列</div>
+        <p class="product-desc" id="prodDesc">在油管下井前或采油树安装后，需要进行密封性试压时，用于封堵油管或采油树的螺纹端口，是完井、修井及日常维护中基础且频繁使用的封堵工具。</p>
+        <div class="product-highlights" id="prodHighlights"></div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="contact.html" class="btn btn-primary" data-i18n="proddetail.getquote">获取报价</a>
+          <a href="contact.html" class="btn btn-outline" data-i18n="proddetail.techconsult">技术咨询</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Specs Table -->
+    <div style="margin-bottom:48px;">
+      <h3 style="font-size:22px;font-weight:600;margin-bottom:20px;padding-left:16px;border-left:3px solid var(--accent-gold);" data-i18n="proddetail.specs-title">技术参数</h3>
+      <table class="spec-table">
+        <thead>
+          <tr><th data-i18n="proddetail.specs-item">参数项</th><th data-i18n="proddetail.specs-value">规格/参数值</th></tr>
+        </thead>
+        <tbody id="specBody"></tbody>
+      </table>
+    </div>
+
+    <!-- CTA -->
+    <div style="text-align:center;padding:48px;background:var(--bg-section);border-radius:var(--radius-lg);">
+      <h3 style="font-size:22px;margin-bottom:12px;" data-i18n="proddetail.cta-title">需要更多产品信息或技术参数？</h3>
+      <p style="color:var(--text-muted);margin-bottom:24px;" data-i18n="proddetail.cta-sub">我们的技术团队随时准备为您提供详细资料和定制方案</p>
+      <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="proddetail.cta-btn">联系我们获取完整资料</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h3 data-i18n="footer.brand">Fonda Oil 峰达石油</h3>
+        <p data-i18n="footer.desc">驱动能源未来，智造可靠装备。专注于石油井口工具、钻探掘进设备及安全应急设备的研发与制造。</p>
+        <div class="footer-quick-form">
+          <input type="text" data-i18n-placeholder="footer.quick-ph" placeholder="留下您的需求，我们会尽快回复">
+          <button data-i18n="footer.quick-btn">发送</button>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="footer.nav-title">快速导航</h4>
+        <div class="footer-links">
+          <a href="products.html" data-i18n="nav.products">产品中心</a>
+          <a href="cases.html" data-i18n="nav.cases">案例展示</a>
+          <a href="about.html" data-i18n="nav.about">关于我们</a>
+          <a href="contact.html" data-i18n="nav.contact">联系我们</a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="footer.prod-title">产品系列</h4>
+        <div class="footer-links">
+          <a href="products.html?cat=wellhead" data-i18n="footer.prod-wellhead">井口工具及装置</a>
+          <a href="products.html?cat=drilling" data-i18n="footer.prod-drilling">钻探掘进设备</a>
+          <a href="products.html?cat=safety" data-i18n="footer.prod-safety">安全应急设备</a>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="footer.contact-title">联系方式</h4>
+        <div class="footer-links">
+          <a style="display:flex;align-items:center;gap:8px;"><span style="width:16px;height:16px;display:inline-flex;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span> <span data-i18n="footer.phone">+86-XXX-XXXX-XXXX</span></a>
+          <a style="display:flex;align-items:center;gap:8px;"><span style="width:16px;height:16px;display:inline-flex;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span> <span data-i18n="footer.email">info@fondaoil.com</span></a>
+          <a style="display:flex;align-items:center;gap:8px;"><span style="width:16px;height:16px;display:inline-flex;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span> <span data-i18n="footer.address">中国·陕西省西安市</span></a>
+          <a style="display:flex;align-items:center;gap:8px;"><span style="width:16px;height:16px;display:inline-flex;flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></span> <span data-i18n="footer.hours">周一至周五 8:30-17:30</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer.copyright">© 2024 Fonda Oil 峰达石油设备有限公司. All rights reserved.</span>
+      <span data-i18n="footer.icp">ICP备案号：陕ICP备XXXXXXXX号</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-top" aria-label="返回顶部" data-i18n="back-top">↑</button>
+
+<script src="js/i18n-data.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Product data injection via URL param -->
+<script>
+(function() {
+  'use strict';
+
+  // Product database: each product has zh/en/ru variants
+  var products = {
+    'tubing-plug': {
+      img: 'images/products/oilfield-threaded-hex-plug-2048.png',
+      zh: {
+        name: '油管丝堵', tag: '封堵与试压类', model: 'FT-SD-01 系列',
+        desc: '在油管下井前或采油树安装后，需要进行密封性试压时，用于封堵油管或采油树的螺纹端口，是完井、修井及日常维护中基础且频繁使用的封堵工具。',
+        highlights: ['操作极其简便，手动旋紧后管钳加固即可完成封堵','通用性强，适配多种规格的油管和采油树螺纹','经济高效的试压密封方案，无需专用工具'],
+        specs: [['适用管径','2-3/8"、2-7/8"、3-1/2" 油管'],['螺纹类型','NU / EU / 特殊扣型（可定制）'],['工作压力','最高 70 MPa'],['材质','35CrMo / 42CrMo 合金钢'],['表面处理','磷化处理 / 镀锌'],['密封方式','螺纹脂 / 生胶带']]
+      },
+      en: {
+        name: 'Tubing Plug', tag: 'Plugging & Pressure Testing', model: 'FT-SD-01 Series',
+        desc: 'Used to seal threaded ports on tubing or christmas trees during pressure testing before running or after installation. An essential and frequently used plugging tool in well completion, workover, and routine maintenance.',
+        highlights: ['Extremely simple operation — hand-tighten then secure with pipe wrench','Highly versatile, adapts to various tubing and tree thread specifications','Cost-effective pressure testing solution, no special tools required'],
+        specs: [['Applicable Pipe Size','2-3/8", 2-7/8", 3-1/2" Tubing'],['Thread Type','NU / EU / Premium (customizable)'],['Working Pressure','Up to 70 MPa'],['Material','35CrMo / 42CrMo Alloy Steel'],['Surface Treatment','Phosphating / Galvanizing'],['Sealing Method','Thread compound / PTFE tape']]
+      },
+      ru: {
+        name: 'Трубная пробка', tag: 'Герметизация и опрессовка', model: 'FT-SD-01 Series',
+        desc: 'Используется для герметизации резьбовых портов НКТ или фонтанной арматуры при опрессовке. Базовый и часто используемый инструмент при заканчивании, ремонте и обслуживании скважин.',
+        highlights: ['Предельно простое использование — закрутить вручную и затянуть ключом','Универсальность, совместимость с различными типоразмерами НКТ и арматуры','Экономичное решение для опрессовки, не требует специнструмента'],
+        specs: [['Диаметр НКТ','2-3/8", 2-7/8", 3-1/2"'],['Тип резьбы','NU / EU / Premium (на заказ)'],['Рабочее давление','До 70 МПа'],['Материал','35CrMo / 42CrMo легированная сталь'],['Покрытие','Фосфатирование / Цинкование'],['Уплотнение','Резьбовая смазка / ФУМ-лента']]
+      }
+    },
+
+    'vr-plug-tool': {
+      img: 'images/products/vr-plug-removal-tool.png',
+      zh: {
+        name: 'VR堵装卸工具', tag: '封堵与试压类', model: 'FT-VR-02 系列',
+        desc: '用于在采油树四通侧面的阀门法兰处，安装或拆卸VR堵（一种备用密封堵头），实现对四通一侧的临时封堵，便于阀门维修或更换。',
+        highlights: ['由推进杆、螺纹推进筒、承压筒、VR堵组成，结构紧凑','扳手旋转推进杆产生强大前推力，操作省力','承压筒上配有泄压考克，可安全释放内压'],
+        specs: [['适用场景','采油树四通侧面阀门法兰'],['驱动方式','手动扳手旋转'],['安全配置','泄压考克'],['材质','42CrMo 合金钢'],['推力机构','螺纹推进']]
+      },
+      en: {
+        name: 'VR Plug Removal Tool', tag: 'Plugging & Pressure Testing', model: 'FT-VR-02 Series',
+        desc: 'A specialized tool for installing or removing VR plugs on the side valve flanges of christmas tree cross tees. Provides temporary sealing of one side of the cross for valve maintenance or replacement.',
+        highlights: ['Compact structure: push rod, threaded sleeve, pressure cylinder, VR plug','Wrench-rotated push rod generates strong forward thrust with minimal effort','Pressure relief cock on cylinder for safe internal pressure release'],
+        specs: [['Application','Christmas tree cross side valve flange'],['Drive Method','Manual wrench rotation'],['Safety Feature','Pressure relief cock'],['Material','42CrMo Alloy Steel'],['Thrust Mechanism','Threaded push rod']]
+      },
+      ru: {
+        name: 'Инструмент для VR-пробок', tag: 'Герметизация и опрессовка', model: 'FT-VR-02 Series',
+        desc: 'Специализированный инструмент для установки или снятия VR-пробок на боковых фланцах крестовины фонтанной арматуры. Обеспечивает временную герметизацию для ремонта или замены задвижек.',
+        highlights: ['Компактная конструкция: толкатель, резьбовая втулка, напорный цилиндр, VR-пробка','Вращение ключом создаёт мощное осевое усилие при минимальных затратах','Кран сброса давления на цилиндре для безопасного стравливания'],
+        specs: [['Применение','Крестовина арматуры, боковой фланец'],['Привод','Вращение ручным ключом'],['Безопасность','Кран сброса давления'],['Материал','42CrMo легированная сталь'],['Механизм','Резьбовой толкатель']]
+      }
+    },
+
+    'casing-seal': {
+      img: 'images/products/casing-seal-assembly.png',
+      zh: {
+        name: '套管密封套', tag: '封堵与试压类', model: 'FT-CS-7 / FT-CS-95',
+        desc: '安装在7"和9-5/8"英寸套管与井口法兰之间，实现套管头部位的密封。双重密封设计，密封性能优异。',
+        highlights: ['双重密封设计：外侧O型圈+内侧FS型密封圈','安装时水平套入即可，操作简便','安装后试压即可投入使用'],
+        specs: [['规格','7"、9-5/8"'],['密封设计','O型圈（外侧）+ FS型密封圈（内侧）'],['安装方式','水平套入'],['工作压力','最高 35 MPa']]
+      },
+      en: {
+        name: 'Casing Seal Assembly', tag: 'Plugging & Pressure Testing', model: 'FT-CS-7 / FT-CS-95',
+        desc: 'Installed between 7" and 9-5/8" casing and wellhead flange to seal the casing head area. Dual-seal design delivers excellent sealing performance.',
+        highlights: ['Dual-seal design: outer O-ring + inner FS-type seal ring','Simple horizontal insertion installation','Ready for service after pressure test'],
+        specs: [['Sizes','7", 9-5/8"'],['Seal Design','O-ring (outer) + FS-type seal (inner)'],['Installation','Horizontal insertion'],['Working Pressure','Up to 35 MPa']]
+      },
+      ru: {
+        name: 'Уплотнение обсадной колонны', tag: 'Герметизация и опрессовка', model: 'FT-CS-7 / FT-CS-95',
+        desc: 'Устанавливается между обсадной колонной 7" и 9-5/8" и фланцем устья для герметизации. Двойное уплотнение обеспечивает превосходную герметичность.',
+        highlights: ['Двойное уплотнение: наружное кольцо O-ring + внутреннее FS-кольцо','Простая горизонтальная установка','Готово к работе после опрессовки'],
+        specs: [['Размеры','7", 9-5/8"'],['Конструкция','O-ring (снаружи) + FS-кольцо (внутри)'],['Монтаж','Горизонтальная вставка'],['Рабочее давление','До 35 МПа']]
+      }
+    },
+
+    'rod-fishing-barrel': {
+      img: 'images/products/04-sucker-rod-overshot-fishing-tool.png',
+      zh: {
+        name: '抽油杆打捞筒', tag: '打捞与修复类', model: 'FT-RF-25/28/38',
+        desc: 'Φ25mm/Φ28mm/Φ38mm三种规格，用于打捞因断裂落在井筒内的抽油杆本体，卡瓦咬合结构成熟，打捞成功率高，操作简便。',
+        highlights: ['三种规格覆盖常见抽油杆尺寸','卡瓦咬合结构，抓捕后不易松脱','螺旋卡瓦设计，边旋转边导入杆体'],
+        specs: [['规格','Φ25mm、Φ28mm、Φ38mm'],['打捞对象','断裂抽油杆本体'],['咬合方式','螺旋卡瓦'],['材质','42CrMo 合金钢'],['连接扣型','2-7/8" NU']]
+      },
+      en: {
+        name: 'Sucker Rod Overshot Fishing Tool', tag: 'Fishing & Repair', model: 'FT-RF-25/28/38',
+        desc: 'Available in Φ25mm/Φ28mm/Φ38mm for retrieving broken sucker rod bodies from the wellbore. Mature slip-grapple mechanism ensures high success rate and ease of operation.',
+        highlights: ['Three sizes covering common sucker rod dimensions','Slip grapple mechanism locks firmly after engagement','Spiral slip design guides rod while rotating'],
+        specs: [['Sizes','Φ25mm, Φ28mm, Φ38mm'],['Target','Broken sucker rod body'],['Grapple','Spiral slip'],['Material','42CrMo Alloy Steel'],['Connection','2-7/8" NU']]
+      },
+      ru: {
+        name: 'Ловильный инструмент для штанг', tag: 'Ловильные и ремонтные работы', model: 'FT-RF-25/28/38',
+        desc: 'Доступен в размерах Φ25/28/38 мм для извлечения оборванных насосных штанг из ствола скважины. Клиновая захватная система с высокой надёжностью.',
+        highlights: ['Три размера для стандартных диаметров штанг','Клиновой захват надёжно фиксирует тело штанги','Спиральная конструкция направляет штангу при вращении'],
+        specs: [['Размеры','Φ25 мм, Φ28 мм, Φ38 мм'],['Объект','Оборванные насосные штанги'],['Захват','Спиральный клин'],['Материал','42CrMo легированная сталь'],['Присоединение','2-7/8" NU']]
+      }
+    },
+
+    'mechanical-release': {
+      img: 'images/products/05-mechanical-release-tool.png',
+      zh: {
+        name: '机械丢手器', tag: '打捞与修复类', model: 'FT-MR 系列',
+        desc: '2-7/8"至5-1/2"多规格，用于分层注水/采油/完井修井作业中将井下工具与油管柱安全分离，避免管柱卡死风险。',
+        highlights: ['多规格覆盖常见管柱尺寸','投球式液压释放，操作可控','释放后安全脱手，不遗留井下金属件'],
+        specs: [['规格','2-7/8"、3-1/2"、5"、5-1/2"'],['释放方式','投球+液压'],['材质','35CrMo 合金钢'],['适用作业','分层注水/采油/完井修井']]
+      },
+      en: {
+        name: 'Mechanical Release Tool', tag: 'Fishing & Repair', model: 'FT-MR Series',
+        desc: 'Available in 2-7/8" to 5-1/2" sizes for safely disconnecting downhole tools from the tubing string during zonal injection, production, or workover operations.',
+        highlights: ['Multiple sizes for common tubing dimensions','Ball-dropped hydraulic release, controllable operation','Clean disconnect with no metallic debris left downhole'],
+        specs: [['Sizes','2-7/8", 3-1/2", 5", 5-1/2"'],['Release Method','Ball drop + hydraulic'],['Material','35CrMo Alloy Steel'],['Applications','Zonal injection / production / workover']]
+      },
+      ru: {
+        name: 'Механический разъединитель', tag: 'Ловильные и ремонтные работы', model: 'FT-MR Series',
+        desc: 'Доступен в размерах 2-7/8"–5-1/2" для безопасного отсоединения скважинных инструментов от колонны НКТ при зональной закачке, добыче или ремонте.',
+        highlights: ['Несколько размеров для стандартных колонн','Гидравлическое отсоединение сбросом шара, контролируемая операция','Чистое отсоединение без металлических остатков в скважине'],
+        specs: [['Размеры','2-7/8", 3-1/2", 5", 5-1/2"'],['Метод','Сброс шара + гидравлика'],['Материал','35CrMo легированная сталь'],['Применение','Зональная закачка / добыча / ремонт']]
+      }
+    },
+
+    'rod-hanger': {
+      img: 'images/products/06-sucker-rod-suspension-device.png',
+      zh: {
+        name: '抽油杆悬挂装置', tag: '注采与解堵类', model: 'FT-RH 系列',
+        desc: '用于注气注水作业中悬挂抽油杆，免去反复提放杆柱的操作。流程清晰快速，大幅缩短注采转换时间。',
+        highlights: ['悬挂抽油杆于井口，无需反复提放','注采转换流程清晰快速','结构坚固，承载能力强'],
+        specs: [['承载能力','≥20t'],['材质','42CrMo 合金钢'],['适用杆径','Φ22mm、Φ25mm、Φ28mm'],['工作压力','最高 35 MPa']]
+      },
+      en: {
+        name: 'Sucker Rod Suspension Device', tag: 'Injection & Stimulation', model: 'FT-RH Series',
+        desc: 'Used to suspend sucker rods during gas/water injection operations, eliminating repeated rod tripping. Clear, rapid workflow dramatically shortens injection-production changeover time.',
+        highlights: ['Suspends rods at wellhead — no repeated tripping needed','Clear, fast injection-production changeover process','Robust construction with high load capacity'],
+        specs: [['Load Capacity','≥20 tonnes'],['Material','42CrMo Alloy Steel'],['Rod Diameters','Φ22mm, Φ25mm, Φ28mm'],['Working Pressure','Up to 35 MPa']]
+      },
+      ru: {
+        name: 'Подвеска насосных штанг', tag: 'Закачка и стимуляция', model: 'FT-RH Series',
+        desc: 'Используется для подвески штанг при закачке газа/воды, исключая повторные СПО. Чёткий и быстрый процесс сокращает время переключения между закачкой и добычей.',
+        highlights: ['Подвеска штанг на устье — без повторных СПО','Быстрое переключение закачка/добыча','Прочная конструкция с высокой грузоподъёмностью'],
+        specs: [['Грузоподъёмность','≥20 т'],['Материал','42CrMo легированная сталь'],['Диаметр штанг','Φ22 мм, Φ25 мм, Φ28 мм'],['Рабочее давление','До 35 МПа']]
+      }
+    },
+
+    'choke-nipple-sleeve': {
+      img: 'images/products/07-high-pressure-choke-nipple-sleeve.png',
+      zh: {
+        name: '高压油嘴套', tag: '注采与解堵类', model: 'FT-HPC 系列',
+        desc: '安装在采油树出油管线与地面管线之间，用于建立高压注液通道，实现稠油井不更换井口即可解堵作业。',
+        highlights: ['建立高压注液通道，无需更换井口','大幅节省解堵作业时间和成本','避免井口重装带来的安全风险'],
+        specs: [['工作压力','最高 70 MPa'],['连接方式','法兰连接'],['材质','42CrMo 合金钢'],['适用工况','稠油井/结蜡井解堵']]
+      },
+      en: {
+        name: 'High-Pressure Choke Nipple Sleeve', tag: 'Injection & Stimulation', model: 'FT-HPC Series',
+        desc: 'Installed between the christmas tree flowline and surface pipeline to establish a high-pressure injection channel, enabling plug-removal operations without replacing the wellhead on heavy oil wells.',
+        highlights: ['Establishes HP injection channel without replacing wellhead','Dramatically reduces plug-removal time and cost','Eliminates safety risks of wellhead re-installation'],
+        specs: [['Working Pressure','Up to 70 MPa'],['Connection','Flanged connection'],['Material','42CrMo Alloy Steel'],['Application','Heavy oil / paraffin-plugged wells']]
+      },
+      ru: {
+        name: 'Муфта штуцера высокого давления', tag: 'Закачка и стимуляция', model: 'FT-HPC Series',
+        desc: 'Устанавливается между выкидной линией арматуры и наземным трубопроводом для создания канала закачки высокого давления, позволяя проводить декольматацию без замены устьевого оборудования.',
+        highlights: ['Канал закачки ВД без замены устьевого оборудования','Значительная экономия времени и средств','Исключает риски безопасности при переустановке арматуры'],
+        specs: [['Рабочее давление','До 70 МПа'],['Соединение','Фланцевое'],['Материал','42CrMo легированная сталь'],['Применение','Декольматация тяжёлой нефти / парафина']]
+      }
+    },
+
+    'tee-choke': {
+      img: 'images/products/08-high-pressure-tee-choke-device.png',
+      zh: {
+        name: '异型三通高压油嘴套装置', tag: '注采与解堵类', model: 'FT-TC 系列',
+        desc: '三通结构设计，更换油嘴无需拆卸地面管线，极大缩短停井时间，减轻工人劳动强度。在注水注气井的日常维护中发挥关键作用。',
+        highlights: ['三通结构实现不停井更换油嘴','大幅缩短停井时间','减轻工人劳动强度，降低安全风险'],
+        specs: [['结构','异型三通'],['工作压力','最高 50 MPa'],['材质','35CrMo 合金钢'],['连接方式','法兰+螺纹']]
+      },
+      en: {
+        name: 'High-Pressure Tee Choke Device', tag: 'Injection & Stimulation', model: 'FT-TC Series',
+        desc: 'Tee-shaped design enables choke replacement without disconnecting surface flowlines, dramatically reducing well downtime and operator workload. Critical for routine maintenance of injection wells.',
+        highlights: ['Tee structure enables choke change without well shutdown','Drastically reduces well downtime','Reduces operator workload and safety risk'],
+        specs: [['Structure','Y-shape / T-shape tee'],['Working Pressure','Up to 50 MPa'],['Material','35CrMo Alloy Steel'],['Connection','Flange + thread']]
+      },
+      ru: {
+        name: 'Тройник штуцера высокого давления', tag: 'Закачка и стимуляция', model: 'FT-TC Series',
+        desc: 'Тройниковая конструкция позволяет менять штуцер без отсоединения наземных трубопроводов, резко сокращая простои скважины и трудозатраты. Ключевой элемент обслуживания нагнетательных скважин.',
+        highlights: ['Тройник позволяет менять штуцер без остановки скважины','Резкое сокращение времени простоя','Снижение трудозатрат и рисков безопасности'],
+        specs: [['Конструкция','Y-/T-образный тройник'],['Рабочее давление','До 50 МПа'],['Материал','35CrMo легированная сталь'],['Соединение','Фланец + резьба']]
+      }
+    },
+
+    'guide-shoe': {
+      img: 'images/products/09-tubing-guide-shoe.png',
+      zh: {
+        name: '油管引鞋', tag: '引导与辅助下入类', model: 'FT-GS 系列',
+        desc: '安装在管柱最底部，利用喇叭口形状引导管柱顺利进入套管或穿越井下变径段，防止管柱端部卡阻或插入井壁。含旧型喇叭口和新型喇叭口两种。',
+        highlights: ['喇叭口设计引导管柱顺利下入','有效防止管柱卡阻和井壁插入','两种规格适应不同工况'],
+        specs: [['类型','旧型喇叭口 / 新型喇叭口'],['连接扣型','2-7/8" NU'],['材质','35CrMo 合金钢'],['应用','所有油管/钻杆下入作业']]
+      },
+      en: {
+        name: 'Tubing Guide Shoe', tag: 'Guidance & Running Tools', model: 'FT-GS Series',
+        desc: 'Installed at the bottom of the string, the bell-mouth shape guides the string smoothly into the casing or through downhole diameter transitions, preventing jamming or wall penetration.',
+        highlights: ['Bell-mouth design guides string smoothly','Effectively prevents jamming and wellbore wall penetration','Two variants for different conditions'],
+        specs: [['Type','Old-style bell mouth / New-style bell mouth'],['Connection','2-7/8" NU'],['Material','35CrMo Alloy Steel'],['Application','All tubing/drill pipe running operations']]
+      },
+      ru: {
+        name: 'Башмак направляющий НКТ', tag: 'Направляющие и спусковые инструменты', model: 'FT-GS Series',
+        desc: 'Устанавливается на нижнем конце колонны. Раструбная форма направляет колонну в обсадную трубу или через сужения, предотвращая заклинивание.',
+        highlights: ['Раструб направляет колонну плавно','Предотвращает заклинивание и внедрение в стенку','Два варианта для разных условий'],
+        specs: [['Тип','Старый / новый раструб'],['Присоединение','2-7/8" NU'],['Материал','35CrMo легированная сталь'],['Применение','Все операции спуска НКТ/бурильных труб']]
+      }
+    },
+
+    'bullet-guide-shoe': {
+      img: 'images/products/10-bullet-tubing-guide-shoe.png',
+      zh: {
+        name: '一体圆头引鞋', tag: '引导与辅助下入类', model: 'FT-BGS-3.5',
+        desc: '3-1/2"规格，圆头设计导正性好，精准引导管柱，防止地层激动伤害。一体式结构强度更高。',
+        highlights: ['圆头设计导正性好，精准居中','防止地层激动和井壁损伤','一体式锻造结构，强度高'],
+        specs: [['规格','3-1/2"'],['结构','一体式锻造'],['材质','42CrMo 合金钢'],['特点','圆弧头+导流孔']]
+      },
+      en: {
+        name: 'Bullet Guide Shoe', tag: 'Guidance & Running Tools', model: 'FT-BGS-3.5',
+        desc: '3-1/2" size. Rounded bullet-nose design provides excellent centralization and guidance, preventing formation surge damage. One-piece construction for superior strength.',
+        highlights: ['Rounded nose provides excellent centralization','Prevents formation surge and wellbore wall damage','One-piece forged construction, high strength'],
+        specs: [['Size','3-1/2"'],['Construction','One-piece forged'],['Material','42CrMo Alloy Steel'],['Features','Rounded nose + fluid ports']]
+      },
+      ru: {
+        name: 'Обтекаемый направляющий башмак', tag: 'Направляющие и спусковые инструменты', model: 'FT-BGS-3.5',
+        desc: 'Размер 3-1/2". Обтекаемая форма обеспечивает отличное центрирование и направление, предотвращая гидроудар и повреждение пласта. Цельная конструкция повышенной прочности.',
+        highlights: ['Обтекаемая форма — отличное центрирование','Предотвращает гидроудар и повреждение пласта','Цельная кованая конструкция высокой прочности'],
+        specs: [['Размер','3-1/2"'],['Конструкция','Цельная кованая'],['Материал','42CrMo легированная сталь'],['Особенности','Скруглённый нос + промывочные отверстия']]
+      }
+    },
+
+    'guide-cone': {
+      img: 'images/products/11-oilfield-reentry-guide-cone.png',
+      zh: {
+        name: '导锥', tag: '引导与辅助下入类', model: 'FT-GC 系列',
+        desc: '2-7/8"至5-1/2"多规格，圆锥形头部减少摩擦阻力，辅助工具精确对接井下封隔器、堵塞器等坐封位置。',
+        highlights: ['圆锥形头部大幅减少摩擦阻力','多规格覆盖常用管柱','精确引导对接封隔器和堵塞器'],
+        specs: [['规格','2-7/8"、3-1/2"、5"、5-1/2"'],['头部形状','圆锥形'],['材质','35CrMo 合金钢'],['功能','减阻+引导+对接']]
+      },
+      en: {
+        name: 'Re-entry Guide Cone', tag: 'Guidance & Running Tools', model: 'FT-GC Series',
+        desc: 'Available in 2-7/8" to 5-1/2" sizes. Conical tip reduces frictional drag and precisely guides tools to engage downhole packers, plugs, and other set-down positions.',
+        highlights: ['Conical tip dramatically reduces frictional drag','Multiple sizes for common string dimensions','Precise guidance for packer and plug engagement'],
+        specs: [['Sizes','2-7/8", 3-1/2", 5", 5-1/2"'],['Tip Shape','Conical'],['Material','35CrMo Alloy Steel'],['Functions','Drag reduction + guidance + engagement']]
+      },
+      ru: {
+        name: 'Направляющий конус', tag: 'Направляющие и спусковые инструменты', model: 'FT-GC Series',
+        desc: 'Размеры 2-7/8"–5-1/2". Конический наконечник снижает трение и точно направляет инструменты для посадки на пакеры, пробки и другие позиции в скважине.',
+        highlights: ['Конический наконечник резко снижает трение','Несколько размеров для стандартных колонн','Точное наведение для посадки на пакеры и пробки'],
+        specs: [['Размеры','2-7/8", 3-1/2", 5", 5-1/2"'],['Наконечник','Конический'],['Материал','35CrMo легированная сталь'],['Функции','Снижение трения + наведение + стыковка']]
+      }
+    },
+
+    'spiral-sampler': {
+      img: 'images/products/12-spiral-mixing-fluid-sampler.png',
+      zh: {
+        name: '螺旋混配取样器', tag: '取样与检测类', model: 'FT-SS 系列',
+        desc: '内置风扇+锥形管混合结构，使流经的油气流体充分混合后取样，确保获取的样品具有真实的代表性，提高化验准确性。',
+        highlights: ['内置混合结构确保样品代表性','结构简单，无需外部动力','提高油藏分析数据准确性'],
+        specs: [['混合方式','内置风扇+锥形管'],['取样接口','标准取样阀'],['材质','316L 不锈钢'],['安装方式','管线法兰连接']]
+      },
+      en: {
+        name: 'Spiral Mixing Fluid Sampler', tag: 'Sampling & Testing', model: 'FT-SS Series',
+        desc: 'Internal fan + conical tube mixing structure thoroughly homogenizes flowing oil/gas fluid before sampling, ensuring truly representative samples for accurate laboratory analysis.',
+        highlights: ['Internal mixing ensures sample representativeness','Simple structure, no external power required','Improves reservoir analysis data accuracy'],
+        specs: [['Mixing Method','Internal fan + conical tube'],['Sampling Port','Standard sampling valve'],['Material','316L Stainless Steel'],['Installation','In-line flange connection']]
+      },
+      ru: {
+        name: 'Спиральный смесительный пробоотборник', tag: 'Отбор проб и тестирование', model: 'FT-SS Series',
+        desc: 'Внутренний вентилятор + коническая трубка тщательно перемешивают поток нефти/газа перед отбором, обеспечивая представительные пробы для точного лабораторного анализа.',
+        highlights: ['Внутреннее смешивание — представительность проб','Простая конструкция, не требует внешнего питания','Повышает точность анализа пластовых данных'],
+        specs: [['Метод смешивания','Внутренний вентилятор + коническая труба'],['Порт отбора','Стандартный клапан'],['Материал','316L Нержавеющая сталь'],['Монтаж','Фланцевое соединение в линии']]
+      }
+    },
+
+    'portable-separator': {
+      img: 'images/products/13-portable-gas-liquid-separator.png',
+      zh: {
+        name: '便携式油气分离器', tag: '取样与检测类', model: 'FT-PS 系列',
+        desc: '体积小重量轻，利用重力分离原理在野外现场快速将油样和气样进行分离提取。无需电力，适用于偏远井场。',
+        highlights: ['轻便便携，适合野外现场使用','重力分离原理，无需电力','快速获取纯净油样和气样'],
+        specs: [['分离原理','重力沉降'],['重量','< 15 kg'],['材质','316L 不锈钢+透明取样瓶'],['适用环境','偏远井场/无电力供应区域']]
+      },
+      en: {
+        name: 'Portable Gas-Liquid Separator', tag: 'Sampling & Testing', model: 'FT-PS Series',
+        desc: 'Compact and lightweight, uses gravity separation to rapidly separate oil and gas samples at the wellsite. No electricity required — ideal for remote locations.',
+        highlights: ['Lightweight and portable for field use','Gravity separation — no electricity needed','Rapid collection of clean oil and gas samples'],
+        specs: [['Separation Principle','Gravity settling'],['Weight','< 15 kg'],['Material','316L Stainless Steel + clear sample bottle'],['Environment','Remote well sites / no power areas']]
+      },
+      ru: {
+        name: 'Портативный газожидкостный сепаратор', tag: 'Отбор проб и тестирование', model: 'FT-PS Series',
+        desc: 'Компактный и лёгкий, использует гравитационное разделение для быстрого отделения проб нефти и газа на скважине. Не требует электричества — идеален для удалённых месторождений.',
+        highlights: ['Лёгкий и портативный для полевого использования','Гравитационное разделение — без электричества','Быстрое получение чистых проб нефти и газа'],
+        specs: [['Принцип','Гравитационное осаждение'],['Вес','< 15 кг'],['Материал','316L Нержавеющая сталь + прозрачная колба'],['Условия','Удалённые скважины / без электричества']]
+      }
+    },
+
+    'filter-cleaner': {
+      img: 'images/products/16-filter-core-cleaning-machine.png',
+      zh: {
+        name: '过滤器滤芯自动清洗装置', tag: '清洗与维护类', model: 'FT-FC 系列',
+        desc: '高压蒸汽加热软化油垢+内筒旋转离心力+钢刷物理摩擦，全自动清洗滤芯，恢复过滤性能，实现滤芯多次重复使用，降低运营成本。',
+        highlights: ['高压蒸汽+旋转+钢刷三重清洗','全自动操作，节省人工','滤芯可重复使用，显著降低耗材成本'],
+        specs: [['清洗方式','高压蒸汽+旋转离心+钢刷'],['控制方式','PLC 自动控制'],['适用滤芯','管式金属滤芯'],['清洗周期','15-30 分钟/批次']]
+      },
+      en: {
+        name: 'Filter Core Automatic Cleaning Machine', tag: 'Cleaning & Maintenance', model: 'FT-FC Series',
+        desc: 'HP steam heating softens oil residue + internal drum rotation centrifugal force + steel brush mechanical friction — fully automatic filter cleaning, restoring performance for multiple reuse cycles and lower OPEX.',
+        highlights: ['Triple-action cleaning: HP steam + rotation + steel brush','Fully automatic — saves labor','Reusable filter cores — significantly reduces consumable cost'],
+        specs: [['Cleaning Method','HP steam + rotary centrifugal + steel brush'],['Control','PLC automatic'],['Filter Type','Tubular metal filter cores'],['Cycle Time','15-30 min per batch']]
+      },
+      ru: {
+        name: 'Автоматическая очистка фильтроэлементов', tag: 'Очистка и обслуживание', model: 'FT-FC Series',
+        desc: 'Нагрев паром ВД + центробежная сила вращающегося барабана + стальные щётки — полностью автоматическая очистка фильтров, восстановление производительности для многократного использования.',
+        highlights: ['Тройная очистка: пар ВД + вращение + щётки','Полностью автоматическая — экономия труда','Многоразовое использование фильтров — снижение затрат'],
+        specs: [['Метод','Пар ВД + центробежный + щётки'],['Управление','ПЛК автоматическое'],['Тип фильтра','Трубчатые металлические'],['Цикл','15-30 мин на партию']]
+      }
+    },
+
+    'thread-protector-cleaner': {
+      img: 'images/products/17-thread-protector-cleaning-machine.png',
+      zh: {
+        name: '螺纹保护器自动清洗装置', tag: '清洗与维护类', model: 'FT-TPC 系列',
+        desc: '锥形滚筒内螺旋轨道自动清洗卸料，高效清理螺纹保护器内外壁油污和杂质。批量处理，操作简便。',
+        highlights: ['锥形滚筒+螺旋轨道自动推进','批量处理，效率高','自动卸料，减少人工干预'],
+        specs: [['结构','锥形滚筒+螺旋轨道'],['控制方式','电控+定时'],['清洗介质','高温清洗液'],['处理能力','50-100 件/批次']]
+      },
+      en: {
+        name: 'Thread Protector Cleaning Machine', tag: 'Cleaning & Maintenance', model: 'FT-TPC Series',
+        desc: 'Conical rotating drum with internal spiral tracks automatically cleans and discharges — efficiently removes oil and debris from thread protectors. Batch processing, simple operation.',
+        highlights: ['Conical drum + spiral track auto-advance','Batch processing, high efficiency','Automatic discharge reduces manual intervention'],
+        specs: [['Structure','Conical drum + spiral track'],['Control','Electric + timer'],['Cleaning Medium','High-temperature cleaning solution'],['Capacity','50-100 pcs per batch']]
+      },
+      ru: {
+        name: 'Машина очистки резьбовых протекторов', tag: 'Очистка и обслуживание', model: 'FT-TPC Series',
+        desc: 'Конический вращающийся барабан с внутренними спиральными дорожками — автоматическая очистка и выгрузка. Эффективно удаляет масло и загрязнения с резьбовых протекторов.',
+        highlights: ['Конический барабан + спиральная дорожка — автоподача','Пакетная обработка, высокая эффективность','Автоматическая выгрузка — меньше ручного труда'],
+        specs: [['Конструкция','Конический барабан + спираль'],['Управление','Электрическое + таймер'],['Среда','Высокотемпературный раствор'],['Производительность','50-100 шт/партия']]
+      }
+    },
+
+    'variable-filter-cartridge': {
+      img: 'images/products/19-variable-diameter-filter-cartridge.png',
+      zh: {
+        name: '变径滤芯', tag: '过滤与流体处理类', model: 'FT-VF 系列',
+        desc: '高压过滤器装置的核心通用耗材，密集微孔的金属耐压圆筒。精密过滤注入流体，保护下游油嘴、流量计等设备。',
+        highlights: ['密集微孔精密过滤','金属耐压结构，使用寿命长','标准化尺寸，即插即用更换'],
+        specs: [['过滤精度','50-200 μm'],['材质','316L 不锈钢'],['耐压','最高 70 MPa'],['适用介质','注入水/化学剂/油气流体']]
+      },
+      en: {
+        name: 'Variable-Diameter Filter Cartridge', tag: 'Filtration & Fluid Handling', model: 'FT-VF Series',
+        desc: 'Core consumable for HP filter manifolds — a densely micro-perforated metal pressure cylinder. Precision-filters injection fluids to protect downstream chokes, flow meters, and other sensitive equipment.',
+        highlights: ['Dense micro-perforations for precision filtration','Metal pressure-rated construction, long service life','Standardized dimensions — plug-and-play replacement'],
+        specs: [['Filtration Rating','50-200 μm'],['Material','316L Stainless Steel'],['Pressure Rating','Up to 70 MPa'],['Media','Injection water / chemicals / oil-gas fluids']]
+      },
+      ru: {
+        name: 'Фильтроэлемент переменного диаметра', tag: 'Фильтрация и обработка флюидов', model: 'FT-VF Series',
+        desc: 'Основной расходный элемент для фильтров ВД — металлический цилиндр с плотной микроперфорацией. Точная фильтрация закачиваемых флюидов для защиты штуцеров, расходомеров и другого оборудования.',
+        highlights: ['Плотная микроперфорация — точная фильтрация','Металлическая конструкция под давлением — долгий срок службы','Стандартные размеры — быстрая замена'],
+        specs: [['Рейтинг фильтрации','50-200 мкм'],['Материал','316L Нержавеющая сталь'],['Давление','До 70 МПа'],['Среда','Вода / химреагенты / нефтегазовые флюиды']]
+      }
+    },
+
+    'electric-grease-pump': {
+      img: 'images/products/20-electric-metered-grease-injection-pump.png',
+      zh: {
+        name: '可计量电动注脂泵', tag: '注脂类', model: 'FT-EGP 系列',
+        desc: '精确控制注脂量，通过高压软管连接采油树阀门注脂嘴，将密封脂注入阀门腔体，恢复或增强阀门密封性能。配备计量装置，注脂量可视化。',
+        highlights: ['精确计量注脂量，避免过量或不足','电动驱动，输出稳定高效','配备计量表，注脂量实时可见'],
+        specs: [['驱动方式','电动'],['计量方式','流量计/容积式'],['工作压力','最高 50 MPa'],['注脂速度','可调']]
+      },
+      en: {
+        name: 'Electric Metered Grease Injection Pump', tag: 'Grease Injection', model: 'FT-EGP Series',
+        desc: 'Precisely controls grease injection volume, connecting via HP hose to christmas tree valve grease fittings to inject sealant into valve cavities, restoring or enhancing sealing performance. Equipped with metering device for visual monitoring.',
+        highlights: ['Precise metering — no over or under injection','Electric drive with stable, efficient output','Real-time metering gauge for visual monitoring'],
+        specs: [['Drive','Electric motor'],['Metering','Flow meter / volumetric'],['Working Pressure','Up to 50 MPa'],['Injection Rate','Adjustable']]
+      },
+      ru: {
+        name: 'Электрический дозированный шприц для смазки', tag: 'Смазка и нагнетание', model: 'FT-EGP Series',
+        desc: 'Точно контролирует объём закачки смазки через шланг ВД к пресс-маслёнкам арматуры, восстанавливая или усиливая герметичность задвижек. Оснащён счётчиком для визуального контроля.',
+        highlights: ['Точное дозирование — без избытка или недостатка','Электропривод, стабильная и эффективная работа','Счётчик реального времени для визуального контроля'],
+        specs: [['Привод','Электрический'],['Дозирование','Расходомер / объёмный'],['Рабочее давление','До 50 МПа'],['Скорость закачки','Регулируемая']]
+      }
+    },
+
+    'double-pin-nipple': {
+      img: 'images/products/21-double-pin-pup-joint.png',
+      zh: {
+        name: '平式双公短节', tag: '连接与配套类', model: 'FT-DP-2.875',
+        desc: '标准2-7/8 NU规格双公扣过渡接头，用于连接两个母扣端油管或工具，是油管串组合中不可或缺的基础连接件。',
+        highlights: ['标准2-7/8 NU规格','双公扣设计，连接灵活','精密加工螺纹，密封可靠'],
+        specs: [['规格','2-7/8" NU'],['长度','0.5m / 1m / 1.5m（可定制）'],['材质','42CrMo 合金钢'],['螺纹标准','API 5CT']]
+      },
+      en: {
+        name: 'Double-Pin Pup Joint', tag: 'Connection & Accessories', model: 'FT-DP-2.875',
+        desc: 'Standard 2-7/8 NU double-pin transition joint for connecting two box-end tubing joints or tools. An essential basic connector in any tubing string assembly.',
+        highlights: ['Standard 2-7/8 NU specification','Double-pin design for flexible connection','Precision-machined threads for reliable sealing'],
+        specs: [['Size','2-7/8" NU'],['Length','0.5m / 1m / 1.5m (customizable)'],['Material','42CrMo Alloy Steel'],['Thread Standard','API 5CT']]
+      },
+      ru: {
+        name: 'Патрубок с двумя ниппелями', tag: 'Соединения и комплектующие', model: 'FT-DP-2.875',
+        desc: 'Стандартный переходник 2-7/8 NU с двумя ниппельными концами для соединения двух муфтовых концов НКТ или инструментов. Базовый соединительный элемент любой колонны НКТ.',
+        highlights: ['Стандарт 2-7/8 NU','Двухниппельная конструкция — гибкость соединений','Прецизионная резьба — надёжное уплотнение'],
+        specs: [['Размер','2-7/8" NU'],['Длина','0,5 / 1 / 1,5 м (на заказ)'],['Материал','42CrMo легированная сталь'],['Стандарт резьбы','API 5CT']]
+      }
+    },
+
+    'tubing-ball-catcher': {
+      img: 'images/products/22-tubing-ball-catcher.png',
+      zh: {
+        name: '油管接球器', tag: '连接与配套类', model: 'FT-BC 系列',
+        desc: '注水井分层作业通用部件，用于接收和捕捉从上层管柱投入的堵塞球，实现分层封堵。含横梁+球座结构，操作可靠。',
+        highlights: ['接收和捕捉堵塞球，实现分层封堵','横梁+球座结构可靠','配合球座装置使用，是分层注水核心组件'],
+        specs: [['功能','捕捉堵塞球'],['结构','横梁+球座'],['材质','合金钢+特种密封球'],['适用','分层注水/压裂作业']]
+      },
+      en: {
+        name: 'Tubing Ball Catcher', tag: 'Connection & Accessories', model: 'FT-BC Series',
+        desc: 'A universal component for zonal injection wells, receiving and capturing dropped balls from the upper string to achieve zonal isolation. Crossbar + ball seat design ensures reliable operation.',
+        highlights: ['Captures dropped balls for zonal isolation','Reliable crossbar + ball seat structure','Core component for zonal water injection with ball seat assembly'],
+        specs: [['Function','Ball capture'],['Structure','Crossbar + ball seat'],['Material','Alloy steel + specialty sealing ball'],['Application','Zonal water injection / fracturing']]
+      },
+      ru: {
+        name: 'Ловитель шара НКТ', tag: 'Соединения и комплектующие', model: 'FT-BC Series',
+        desc: 'Универсальный компонент для зональной закачки. Принимает и захватывает сбрасываемые шары из верхней колонны для зональной изоляции. Поперечина + седло — надёжная конструкция.',
+        highlights: ['Захват сбрасываемых шаров для зональной изоляции','Надёжная конструкция: поперечина + седло','Ключевой компонент зональной закачки воды'],
+        specs: [['Функция','Захват шара'],['Конструкция','Поперечина + седло'],['Материал','Легированная сталь + уплотнительный шар'],['Применение','Зональная закачка / ГРП']]
+      }
+    },
+
+    'clamp-seal': {
+      img: 'images/products/14-emergency-pipe-leak-repair-clamp.png',
+      zh: {
+        name: '挤压式抱卡堵漏装置', tag: '应急与安全类', model: 'FT-CL 系列',
+        desc: '用于管道发生刺漏后的快速应急堵漏抢险。无需焊接，仅需将两瓣抱卡拼接在漏点处即可实现带压堵漏。最大限度减少泄漏损失和环境影响。',
+        highlights: ['免焊接快速安装，极短时间内恢复管道运行','主次双重密封胶圈，带压堵漏','最大限度减少泄漏损失和环境污染'],
+        specs: [['适用管径','多规格可选'],['密封方式','主+次双重密封胶圈'],['安装方式','拼接抱卡，无需焊接'],['工作压力','带压堵漏']]
+      },
+      en: {
+        name: 'Emergency Pipe Leak Repair Clamp', tag: 'Emergency & Safety', model: 'FT-CL Series',
+        desc: 'Rapid emergency leak repair for pipelines. No welding required — simply clamp the two halves around the leak point to achieve pressurized sealing. Minimizes leakage loss and environmental impact.',
+        highlights: ['No-weld rapid installation, restore pipeline operation in minimal time','Primary + secondary dual seal rings for pressurized leak repair','Minimizes leakage loss and environmental pollution'],
+        specs: [['Pipe Sizes','Multiple sizes available'],['Sealing','Primary + secondary dual seal rings'],['Installation','Split clamp, no welding required'],['Pressure','In-service pressurized repair']]
+      },
+      ru: {
+        name: 'Аварийный ремонтный хомут для труб', tag: 'Аварийно-спасательное оборудование', model: 'FT-CL Series',
+        desc: 'Быстрый аварийный ремонт трубопроводов. Без сварки — просто зажмите две половинки хомута вокруг места утечки для уплотнения под давлением. Минимизирует потери и воздействие на окружающую среду.',
+        highlights: ['Быстрый монтаж без сварки — восстановление за минимальное время','Двойное уплотнение (основное + вторичное) для ремонта под давлением','Минимизация потерь и загрязнения окружающей среды'],
+        specs: [['Диаметры труб','Различные размеры'],['Уплотнение','Двойное кольцо (основное + вторичное)'],['Монтаж','Разъёмный хомут, без сварки'],['Давление','Ремонт под рабочим давлением']]
+      }
+    },
+
+    'pumping-unit-safety-brake': {
+      img: 'images/products/15-pumping-unit-safety-brake.png',
+      zh: {
+        name: '游梁式抽油机安全保险装置', tag: '应急与安全类', model: 'FT-PSB 系列',
+        desc: '主刹车失效时的安全冗余保护，通过手柄手动操作制动片抱紧刹车毂，为抽油机提供一道独立于主刹车系统的可靠安全防线。',
+        highlights: ['独立于主刹车的安全冗余保护','手动操作，不依赖外部动力','结构坚固，制动可靠'],
+        specs: [['驱动方式','手动'],['制动方式','抱闸式'],['适用机型','游梁式抽油机'],['功能','主刹车失效后备保护']]
+      },
+      en: {
+        name: 'Pumping Unit Safety Brake Device', tag: 'Emergency & Safety', model: 'FT-PSB Series',
+        desc: 'Safety redundancy when the main brake fails — manually operated brake pads clamp the drum, providing an independent, reliable safety barrier for the pumping unit beyond the primary braking system.',
+        highlights: ['Independent safety redundancy beyond main brake','Manual operation, no external power required','Robust construction, reliable braking'],
+        specs: [['Drive','Manual'],['Braking Type','Band brake'],['Application','Beam pumping units'],['Function','Main brake failure backup protection']]
+      },
+      ru: {
+        name: 'Предохранительный тормоз станка-качалки', tag: 'Аварийно-спасательное оборудование', model: 'FT-PSB Series',
+        desc: 'Резервирование на случай отказа основного тормоза — ручное приведение тормозных колодок к барабану. Независимый надёжный барьер безопасности для станка-качалки.',
+        highlights: ['Независимое резервирование основного тормоза','Ручное управление, не требует внешнего питания','Прочная конструкция, надёжное торможение'],
+        specs: [['Привод','Ручной'],['Тип тормоза','Ленточный'],['Применение','Станки-качалки'],['Функция','Резервная защита при отказе основного тормоза']]
+      }
+    },
+
+    'hp-filter-manifold': {
+      img: 'images/products/18-high-pressure-filter-manifold.png',
+      zh: {
+        name: '高压过滤器装置及管汇', tag: '过滤与流体处理类', model: 'FT-HPF 系列',
+        desc: '一用一备双套过滤器并联设计，实现在线切换和不停井更换滤芯。有效滤除注入流体中的机械杂质，保护下游油嘴、流量计等精密设备。',
+        highlights: ['一用一备双套设计，不停井切换','在线更换滤芯，零停产','精密过滤，保护下游设备'],
+        specs: [['配置','双套并联（一用一备）'],['过滤精度','50-200 μm'],['工作压力','最高 70 MPa'],['材质','35CrMo 壳体 + 316L 滤芯']]
+      },
+      en: {
+        name: 'High-Pressure Filter Manifold', tag: 'Filtration & Fluid Handling', model: 'FT-HPF Series',
+        desc: 'Dual parallel filter design (duty + standby) enables online switchover and filter replacement without well shutdown. Effectively removes solid impurities from injection fluids, protecting downstream chokes, flow meters, and precision equipment.',
+        highlights: ['Duty + standby dual-unit design for online switchover','Filter replacement without shutdown — zero downtime','Precision filtration protects downstream equipment'],
+        specs: [['Configuration','Dual parallel (duty + standby)'],['Filtration Rating','50-200 μm'],['Working Pressure','Up to 70 MPa'],['Material','35CrMo housing + 316L filter elements']]
+      },
+      ru: {
+        name: 'Коллектор фильтров высокого давления', tag: 'Фильтрация и обработка флюидов', model: 'FT-HPF Series',
+        desc: 'Сдвоенная параллельная конструкция фильтров (рабочий + резервный) для переключения и замены фильтроэлементов без остановки скважины. Эффективно удаляет механические примеси, защищая штуцеры и расходомеры.',
+        highlights: ['Сдвоенная система (рабочий + резерв) — переключение онлайн','Замена фильтров без остановки — ноль простоя','Точная фильтрация для защиты оборудования'],
+        specs: [['Конфигурация','Сдвоенная параллельная (раб. + рез.)'],['Точность','50-200 мкм'],['Рабочее давление','До 70 МПа'],['Материал','Корпус 35CrMo + элементы 316L']]
+      }
+    },
+
+    'cable-protector': {
+      img: 'images/products/23-drill-floor-cable-protector.png',
+      zh: {
+        name: '钻台电缆防磕碰扶正装置', tag: '电缆保护类', model: 'FT-CP 系列',
+        desc: '安装在钻台转盘凹槽内，弹簧加载的尼龙扶正轮夹持电缆并随其移动动作自适应压紧。电缆导向轮引导电缆改变方向避开井口危险区域。',
+        highlights: ['压簧+扶正轮实现“柔性扶正”，不伤电缆','尼龙导轮低摩擦，电缆运行顺畅','导向轮引导电缆避开井口危险区域'],
+        specs: [['扶正方式','弹簧加载尼龙轮'],['安装位置','钻台转盘凹槽'],['适用电缆','测井电缆/控制电缆'],['材质','钢基座+尼龙轮']]
+      },
+      en: {
+        name: 'Drill Floor Cable Protector', tag: 'Cable Protection', model: 'FT-CP Series',
+        desc: 'Installed in the rotary table recess. Spring-loaded nylon guide rollers clamp and center cables, adapting to cable movement. Directional sheave wheel guides cables away from the wellhead hazard zone.',
+        highlights: ['Spring + roller "soft centralization" protects cable jacket','Low-friction nylon rollers for smooth cable movement','Guide wheel diverts cable away from hazardous wellhead area'],
+        specs: [['Centralization','Spring-loaded nylon rollers'],['Mounting','Rotary table recess'],['Cable Type','Logging / control cables'],['Material','Steel base + nylon rollers']]
+      },
+      ru: {
+        name: 'Защитное устройство для кабеля на буровой', tag: 'Защита кабеля', model: 'FT-CP Series',
+        desc: 'Устанавливается в пазу роторного стола. Подпружиненные нейлоновые ролики центрируют и фиксируют кабель, адаптируясь к его движению. Направляющий шкив отводит кабель от опасной зоны устья.',
+        highlights: ['Пружина + ролики — "мягкая" центровка без повреждения кабеля','Нейлоновые ролики с низким трением','Направляющий шкив отводит кабель от устья'],
+        specs: [['Центровка','Подпружиненные нейлоновые ролики'],['Установка','Паз роторного стола'],['Тип кабеля','Каротажный / контрольный'],['Материал','Стальное основание + нейлон']]
+      }
+    },
+
+    'cable-damage-prevention-guide': {
+      img: 'images/products/24-cable-damage-prevention-guide.png',
+      zh: {
+        name: '电缆防损伤导向装置', tag: '电缆保护类', model: 'FT-CDG 系列',
+        desc: '菱形金属框架悬挂于钻台下方，多个红色尼龙滑轮和减震弹簧协同工作，引导电缆平稳运行。有效防止电缆磨损、缠绕和断裂。',
+        highlights: ['菱形框架+多滑轮导向','减震弹簧吸收冲击和振动','有效防止电缆磨损和断裂'],
+        specs: [['结构','菱形金属框架+滑轮组'],['缓冲方式','减震弹簧'],['滑轮材质','尼龙'],['安装方式','悬挂式']]
+      },
+      en: {
+        name: 'Cable Damage Prevention Guide', tag: 'Cable Protection', model: 'FT-CDG Series',
+        desc: 'Diamond-shaped metal frame suspended beneath the drill floor, with multiple red nylon pulleys and shock-absorbing springs guiding cable smoothly. Effectively prevents cable wear, tangling, and breakage.',
+        highlights: ['Diamond frame + multi-pulley guidance','Shock-absorbing springs absorb impact and vibration','Effectively prevents cable wear and breakage'],
+        specs: [['Structure','Diamond metal frame + pulley set'],['Damping','Shock-absorbing springs'],['Pulley Material','Nylon'],['Mounting','Suspended']]
+      },
+      ru: {
+        name: 'Направляющая защита кабеля от повреждений', tag: 'Защита кабеля', model: 'FT-CDG Series',
+        desc: 'Ромбовидная металлическая рама, подвешенная под полом буровой, с несколькими красными нейлоновыми шкивами и амортизирующими пружинами. Предотвращает износ, запутывание и обрыв кабеля.',
+        highlights: ['Ромбовидная рама + система шкивов','Амортизирующие пружины поглощают удары и вибрацию','Предотвращает износ и обрыв кабеля'],
+        specs: [['Конструкция','Ромбовидная металлическая рама + шкивы'],['Амортизация','Пружины'],['Шкивы','Нейлон'],['Монтаж','Подвесной']]
+      }
+    }
+  };
+
+  // Get product ID from URL
+  function renderProduct() {
+    var params = new URLSearchParams(window.location.search);
+    var id = params.get('id');
+    var lang = window.getLang ? window.getLang() : 'zh';
+
+    if (!id || !products[id]) return;
+
+    var p = products[id];
+    // Fallback to zh if translation missing
+    var data = (p[lang] || p['zh']);
+
+    document.getElementById('prodName').textContent = data.name;
+    document.getElementById('prodCategory').textContent = data.tag + (lang === 'en' ? ' · Fonda Oil' : lang === 'ru' ? ' · Fonda Oil' : ' · 峰达石油设备');
+    document.getElementById('prodTag').textContent = data.tag;
+    document.getElementById('prodTitle').textContent = data.name;
+    document.getElementById('prodModel').textContent = (lang === 'en' ? 'Model: ' : lang === 'ru' ? 'Модель: ' : '型号：') + data.model;
+    document.getElementById('prodDesc').textContent = data.desc;
+
+    var prodImgEl = document.getElementById('prodImg');
+    prodImgEl.innerHTML = '<img src="' + p.img + '" alt="' + data.name + '" style="width:100%;height:100%;object-fit:cover;" loading="lazy">';
+
+    document.getElementById('prodHighlights').innerHTML = data.highlights.map(function(h) {
+      return '<div class="highlight-item"><span class="highlight-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>' + h + '</div>';
+    }).join('');
+
+    document.getElementById('specBody').innerHTML = data.specs.map(function(s) {
+      return '<tr><td>' + s[0] + '</td><td>' + s[1] + '</td></tr>';
+    }).join('');
+  }
+
+  // Initial render
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', renderProduct);
+  } else {
+    renderProduct();
+  }
+
+  // Re-render on language change
+  window.onLangChange = function() {
+    renderProduct();
+  };
+})();
+</script>
+
+</body>
+</html>
